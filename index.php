@@ -22,9 +22,15 @@ $horaActual = date('H:i:s'); // 'H' para formato de 24 horas
 
   <button id="toggle-dark-mode">Light</button> <!-- Por defecto en modo oscuro -->
 
+  <img src="imagenes/favicon.png" alt="Image Creative Studio">
   <h1>Fecha y Hora Actual</h1>
-  <p>La fecha actual es: <?php echo $fechaActual; ?></p>
-  <p>Horario Argentina:</p>
+  <p>Hoy es: <b><?php echo $fechaActual; ?></b></p>
+  <br>
+  <p>Puedes establecer tu zona horaria modificando en la linea 3, donde dice:</p>
+  <p>"date_default_timezone_set('America/Argentina/Buenos_Aires')"</p>
+  <br>
+  <p>Horario ARGENTINA:</p>
+  <br>
   <div id="clock"></div>
 
   <!-- Javascript -->

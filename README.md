@@ -1,5 +1,5 @@
 # PERSONAL_DIA_Y_FECHA
-# 04_Mostrar_Dia_Fecha_PHP
+## Mostrar Dia y Fecha en PHP
 
 # Proyecto de Fecha y Hora con Modo Claro/Oscuro
 
